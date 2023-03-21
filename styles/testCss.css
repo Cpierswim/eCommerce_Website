@@ -55,3 +55,24 @@ a {
 a:hover {
   color: #bf7631;
 }
+
+.right_nav_part {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.searchbar {
+  margin-right: 1vw;
+  width: 10%;
+  background-image: url("../assets/images/1200px-Google_Magnifying_Glass.svg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 10px;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.shopping_cart {
+  text-transform: uppercase;
+}
