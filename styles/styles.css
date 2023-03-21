@@ -1,35 +1,57 @@
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 50;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 50;
 }
 
-.orange_logo{
-    height: 40px;
-    width: 243px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+.orange_logo {
+  height: 40px;
+  width: 243px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.store_name{
-    font-weight: 500;
-    font-size: 30px;
-    color: #000000;
-    letter-spacing: 4px;
+.store_name {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 4px;
 }
 
-.logo_img{
-    background-image: url("../assets/images/icons8-pottery-96.png");
-    background-size: cover;
-    min-height: 40px;
-    min-width: 40px;
+.logo_img {
+  background-image: url("../assets/images/icons8-pottery-96.png");
+  background-size: cover;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+.main_navigation {
+  list-style-type: none;
+}
+
+.navigation_item {
+  display: inline;
+  padding-right: 1.5vw;
+  text-transform: uppercase;
+  font-size: 27px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #bf7631;
 }
