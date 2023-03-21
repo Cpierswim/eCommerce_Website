@@ -72,9 +72,12 @@ a:hover {
   background-image: url("../assets/images/1200px-Google_Magnifying_Glass.svg.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 10px;
+  background-size: calc(3vh - 1px);
   box-shadow: none;
   border-radius: 0px;
+  height: 3vh;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .shopping_cart {
