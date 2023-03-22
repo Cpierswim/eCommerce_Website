@@ -166,6 +166,7 @@ nav {
 
 .about_us_text_container {
   width: 65%;
+  background-color: aqua;
 }
 
 .about_us_right_picture {
@@ -333,4 +334,58 @@ nav {
 
 .products_more_margin {
   margin-top: 15vh;
+}
+
+.contact_us_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+  width: 60%;
+  align-self: center;
+}
+
+.second_contact_container {
+}
+
+#email {
+  width: 100%;
+  height: 30px;
+  display: block;
+  padding: 3px;
+}
+
+#message {
+  width: 100%;
+  height: 13vh;
+  display: block;
+  padding: 3px;
+}
+
+.email_label {
+  text-transform: uppercase;
+  display: block;
+  font-size: 2vh;
+  margin-top: 4vh;
+  height: 3vh;
+}
+
+.send_button {
+  background-color: #bf7631;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  padding: 4px 20px 4px 20px;
+  margin-top: 3vh;
+  position: relative;
+  right: 0px;
+}
+
+.contact_us_header {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  display: flex;
+  background-color: yellow;
 }
